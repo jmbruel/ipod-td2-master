@@ -64,7 +64,7 @@ TIP: Course material: pass:[<i class="fa fa-mobile"></i> <i class="fa fa-tablet"
 endif::[]
 
 ifdef::backend-pdf[]
-TIP: Course material: icon::mobile[] icon::tablet[] icon::[]laptop http://bit.ly/jmb-cpoa
+TIP: Course material: icon:mobile[] icon:tablet[] icon:laptop[] http://bit.ly/jmb-cpoa
 endif::[]
 endif::[]
 
@@ -76,7 +76,7 @@ TIP: Rappel du cours : pass:[<i class="fa fa-mobile"></i> <i class="fa fa-tablet
 endif::[]
 
 ifdef::backend-pdf[]
-TIP: Rappel du cours : icon::mobile[] icon::tablet[] icon::[]laptop http://bit.ly/jmb-cpoa
+TIP: Rappel du cours : icon:mobile[] icon:tablet[] icon:laptop[] http://bit.ly/jmb-cpoa
 endif::[]
 
 endif::[]
