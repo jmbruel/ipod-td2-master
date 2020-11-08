@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="292px" preserveAspectRatio="none" style="width:682px;height:292px;" version="1.1" viewBox="0 0 682 292" width="682px" zoomAndPan="magnify"><defs><filter height="300%" id="f10s75juxf3uso" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[82f78030d15708ad5ff33f19467d2e14]
+class Personnage--><rect codeLine="8" fill="#F0F8FF" filter="url(#f10s75juxf3uso)" height="65.9102" id="Personnage" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="269" x="203" y="7"/><ellipse cx="302.75" cy="23" fill="#A9DCDF" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M302.6133,18.3481 L301.4595,23.4199 L303.7754,23.4199 Z M301.1191,16.1069 L304.1157,16.1069 L307.4609,28.5 L305.0122,28.5 L304.2485,25.437 L300.9697,25.437 L300.2227,28.5 L297.7739,28.5 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="61" x="323.25" y="27.3008">Personnage</text><line style="stroke: #2F4F4F; stroke-width: 1.5;" x1="204" x2="471" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="204" x="209" y="53.6348">combattre() {this.arme.utiliserArme();}</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="257" x="209" y="66.5898">setArme(ComportementArme a) {this.arme = a;}</text><!--MD5=[fb42f63e3a0f62f73f4fc52c072eeb9a]
+class Reine--><rect codeLine="12" fill="#F0F8FF" filter="url(#f10s75juxf3uso)" height="52.9551" id="Reine" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="95" x="7" y="133"/><ellipse cx="36.4" cy="149" fill="#ADD1B2" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M38.8731,155.1431 Q38.2921,155.4419 37.6529,155.5913 Q37.0138,155.7407 36.3082,155.7407 Q33.8014,155.7407 32.4815,154.0889 Q31.1617,152.437 31.1617,149.3159 Q31.1617,146.1865 32.4815,144.5347 Q33.8014,142.8828 36.3082,142.8828 Q37.0138,142.8828 37.6612,143.0322 Q38.3087,143.1816 38.8731,143.4805 L38.8731,146.2031 Q38.2423,145.6221 37.6488,145.3523 Q37.0553,145.0825 36.4244,145.0825 Q35.0797,145.0825 34.3949,146.1492 Q33.7101,147.2158 33.7101,149.3159 Q33.7101,151.4077 34.3949,152.4744 Q35.0797,153.541 36.4244,153.541 Q37.0553,153.541 37.6488,153.2712 Q38.2423,153.0015 38.8731,152.4204 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="53.6" y="153.3008">Reine</text><line style="stroke: #2F4F4F; stroke-width: 1.5;" x1="8" x2="101" y1="165" y2="165"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="13" y="179.6348">combattre() {...}</text><!--MD5=[6833b6724731009711148096b9a7474f]
+class Roi--><rect codeLine="15" fill="#F0F8FF" filter="url(#f10s75juxf3uso)" height="52.9551" id="Roi" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="95" x="137" y="133"/><ellipse cx="173.15" cy="149" fill="#ADD1B2" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M175.6231,155.1431 Q175.0421,155.4419 174.4029,155.5913 Q173.7638,155.7407 173.0582,155.7407 Q170.5514,155.7407 169.2315,154.0889 Q167.9117,152.437 167.9117,149.3159 Q167.9117,146.1865 169.2315,144.5347 Q170.5514,142.8828 173.0582,142.8828 Q173.7638,142.8828 174.4112,143.0322 Q175.0587,143.1816 175.6231,143.4805 L175.6231,146.2031 Q174.9923,145.6221 174.3988,145.3523 Q173.8053,145.0825 173.1744,145.0825 Q171.8297,145.0825 171.1449,146.1492 Q170.4601,147.2158 170.4601,149.3159 Q170.4601,151.4077 171.1449,152.4744 Q171.8297,153.541 173.1744,153.541 Q173.8053,153.541 174.3988,153.2712 Q174.9923,153.0015 175.6231,152.4204 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="16" x="191.85" y="153.3008">Roi</text><line style="stroke: #2F4F4F; stroke-width: 1.5;" x1="138" x2="231" y1="165" y2="165"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="143" y="179.6348">combattre() {...}</text><!--MD5=[0ad4d24c6ff88d92fa928ac795c8c1a1]
+class ComportementPoignard--><rect codeLine="18" fill="#F0F8FF" filter="url(#f10s75juxf3uso)" height="32" id="ComportementPoignard" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="161" x="75" y="246"/><ellipse cx="90" cy="262" fill="#ADD1B2" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M92.4731,268.1431 Q91.8921,268.4419 91.2529,268.5913 Q90.6138,268.7407 89.9082,268.7407 Q87.4014,268.7407 86.0815,267.0889 Q84.7617,265.437 84.7617,262.3159 Q84.7617,259.1865 86.0815,257.5347 Q87.4014,255.8828 89.9082,255.8828 Q90.6138,255.8828 91.2612,256.0322 Q91.9087,256.1816 92.4731,256.4805 L92.4731,259.2031 Q91.8423,258.6221 91.2488,258.3523 Q90.6553,258.0825 90.0244,258.0825 Q88.6797,258.0825 87.9949,259.1492 Q87.3101,260.2158 87.3101,262.3159 Q87.3101,264.4077 87.9949,265.4744 Q88.6797,266.541 90.0244,266.541 Q90.6553,266.541 91.2488,266.2712 Q91.8423,266.0015 92.4731,265.4204 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="129" x="104" y="266.3008">ComportementPoignard</text><!--MD5=[3657ceda7d3fa2b834681c9fce9f59ef]
+class ComportementArc--><rect codeLine="20" fill="#F0F8FF" filter="url(#f10s75juxf3uso)" height="32" id="ComportementArc" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="132" x="271.5" y="246"/><ellipse cx="286.5" cy="262" fill="#ADD1B2" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M288.9731,268.1431 Q288.3921,268.4419 287.7529,268.5913 Q287.1138,268.7407 286.4082,268.7407 Q283.9014,268.7407 282.5815,267.0889 Q281.2617,265.437 281.2617,262.3159 Q281.2617,259.1865 282.5815,257.5347 Q283.9014,255.8828 286.4082,255.8828 Q287.1138,255.8828 287.7612,256.0322 Q288.4087,256.1816 288.9731,256.4805 L288.9731,259.2031 Q288.3423,258.6221 287.7488,258.3523 Q287.1553,258.0825 286.5244,258.0825 Q285.1797,258.0825 284.4949,259.1492 Q283.8101,260.2158 283.8101,262.3159 Q283.8101,264.4077 284.4949,265.4744 Q285.1797,266.541 286.5244,266.541 Q287.1553,266.541 287.7488,266.2712 Q288.3423,266.0015 288.9731,265.4204 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="100" x="300.5" y="266.3008">ComportementArc</text><!--MD5=[5146d91265fcc89e691ea1e5c6c1156e]
+class ComportementEpee--><rect codeLine="22" fill="#F0F8FF" filter="url(#f10s75juxf3uso)" height="32" id="ComportementEpee" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="141" x="439" y="246"/><ellipse cx="454" cy="262" fill="#ADD1B2" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M456.4731,268.1431 Q455.8921,268.4419 455.2529,268.5913 Q454.6138,268.7407 453.9082,268.7407 Q451.4014,268.7407 450.0815,267.0889 Q448.7617,265.437 448.7617,262.3159 Q448.7617,259.1865 450.0815,257.5347 Q451.4014,255.8828 453.9082,255.8828 Q454.6138,255.8828 455.2612,256.0322 Q455.9087,256.1816 456.4731,256.4805 L456.4731,259.2031 Q455.8423,258.6221 455.2488,258.3523 Q454.6553,258.0825 454.0244,258.0825 Q452.6797,258.0825 451.9949,259.1492 Q451.3101,260.2158 451.3101,262.3159 Q451.3101,264.4077 451.9949,265.4744 Q452.6797,266.541 454.0244,266.541 Q454.6553,266.541 455.2488,266.2712 Q455.8423,266.0015 456.4731,265.4204 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="109" x="468" y="266.3008">ComportementEpee</text><!--MD5=[bcd50c6c73517fb1287c558f4bb5fe8d]
+class ComportementArme--><rect codeLine="24" fill="#F0F8FF" filter="url(#f10s75juxf3uso)" height="52.9551" id="ComportementArme" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="140" x="267.5" y="133"/><ellipse cx="282.5" cy="149" fill="#B4A7E5" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M278.9277,145.2651 L278.9277,143.1069 L286.3071,143.1069 L286.3071,145.2651 L283.8418,145.2651 L283.8418,153.3418 L286.3071,153.3418 L286.3071,155.5 L278.9277,155.5 L278.9277,153.3418 L281.3931,153.3418 L281.3931,145.2651 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="108" x="296.5" y="153.3008">ComportementArme</text><line style="stroke: #2F4F4F; stroke-width: 1.5;" x1="268.5" x2="406.5" y1="165" y2="165"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="273.5" y="179.6348">utiliserArme()</text><!--MD5=[0d912f6bb98965e5a45e9bb1a9ed0249]
+class Troll--><rect codeLine="27" fill="#F0F8FF" filter="url(#f10s75juxf3uso)" height="52.9551" id="Troll" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="95" x="443" y="133"/><ellipse cx="474.65" cy="149" fill="#ADD1B2" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M477.1231,155.1431 Q476.5421,155.4419 475.9029,155.5913 Q475.2638,155.7407 474.5582,155.7407 Q472.0514,155.7407 470.7315,154.0889 Q469.4117,152.437 469.4117,149.3159 Q469.4117,146.1865 470.7315,144.5347 Q472.0514,142.8828 474.5582,142.8828 Q475.2638,142.8828 475.9112,143.0322 Q476.5587,143.1816 477.1231,143.4805 L477.1231,146.2031 Q476.4923,145.6221 475.8988,145.3523 Q475.3053,145.0825 474.6744,145.0825 Q473.3297,145.0825 472.6449,146.1492 Q471.9601,147.2158 471.9601,149.3159 Q471.9601,151.4077 472.6449,152.4744 Q473.3297,153.541 474.6744,153.541 Q475.3053,153.541 475.8988,153.2712 Q476.4923,153.0015 477.1231,152.4204 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="26" x="492.35" y="153.3008">Troll</text><line style="stroke: #2F4F4F; stroke-width: 1.5;" x1="444" x2="537" y1="165" y2="165"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="449" y="179.6348">combattre() {...}</text><!--MD5=[b0f5c3a4fe0eb18ec19b3b15f2bfa738]
+class Chevalier--><rect codeLine="30" fill="#F0F8FF" filter="url(#f10s75juxf3uso)" height="52.9551" id="Chevalier" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="95" x="573" y="133"/><ellipse cx="592.95" cy="149" fill="#ADD1B2" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M595.4231,155.1431 Q594.8421,155.4419 594.2029,155.5913 Q593.5638,155.7407 592.8582,155.7407 Q590.3514,155.7407 589.0315,154.0889 Q587.7117,152.437 587.7117,149.3159 Q587.7117,146.1865 589.0315,144.5347 Q590.3514,142.8828 592.8582,142.8828 Q593.5638,142.8828 594.2112,143.0322 Q594.8587,143.1816 595.4231,143.4805 L595.4231,146.2031 Q594.7923,145.6221 594.1988,145.3523 Q593.6053,145.0825 592.9744,145.0825 Q591.6297,145.0825 590.9449,146.1492 Q590.2601,147.2158 590.2601,149.3159 Q590.2601,151.4077 590.9449,152.4744 Q591.6297,153.541 592.9744,153.541 Q593.6053,153.541 594.1988,153.2712 Q594.7923,153.0015 595.4231,152.4204 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="52" x="608.05" y="153.3008">Chevalier</text><line style="stroke: #2F4F4F; stroke-width: 1.5;" x1="574" x2="667" y1="165" y2="165"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="579" y="179.6348">combattre() {...}</text><!--MD5=[f4900419ff471cdd3223f93ab7d0bd93]
+reverse link Personnage to Roi--><path codeLine="33" d="M279.57,85.49 C258.78,101.45 236.05,118.91 218.03,132.75 " fill="none" id="Personnage-backto-Roi" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="none" points="275.57,79.74,295.69,73.11,284.09,90.84,275.57,79.74" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[5500a0065b6ea0cca3172a79f9097626]
+reverse link Personnage to Reine--><path codeLine="34" d="M241.56,80.83 C194.55,100.35 140.02,122.99 102.01,138.78 " fill="none" id="Personnage-backto-Reine" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="none" points="239.01,74.31,260.17,73.11,244.38,87.24,239.01,74.31" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[ff6cb0aa0ca1e66f75b7e292076bac87]
+reverse link Personnage to Chevalier--><path codeLine="35" d="M433.44,80.83 C480.45,100.35 534.98,122.99 572.99,138.78 " fill="none" id="Personnage-backto-Chevalier" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="none" points="430.62,87.24,414.83,73.11,435.99,74.31,430.62,87.24" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[33af2806a5f63ddac83f16f57bcaeb0e]
+reverse link Personnage to Troll--><path codeLine="36" d="M395.43,85.49 C416.22,101.45 438.95,118.91 456.97,132.75 " fill="none" id="Personnage-backto-Troll" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="none" points="390.91,90.84,379.31,73.11,399.43,79.74,390.91,90.84" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[5f1e5245cc888e4b1e04ace159a804d6]
+link Personnage to ComportementArme--><path codeLine="37" d="M337.5,85.11 C337.5,85.11 337.5,108.92 337.5,119.52 " fill="none" id="Personnage-ComportementArme" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="337.5,132.75,341.5,123.75,337.5,127.75,333.5,123.75,337.5,132.75" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="337.5" x2="337.5" y1="127.75" y2="119.75"/><polygon fill="#FFFFFF" points="337.5,73.11,333.5,79.11,337.5,85.11,341.5,79.11,337.5,73.11" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="328.575" y="122.4391">1</text><!--MD5=[c1e8950d8e2c90adb3516601879e0313]
+reverse link ComportementArme to ComportementEpee--><path codeLine="39" d="M398.77,196.3 C427.83,213.28 461,232.66 483.4,245.75 " fill="none" id="ComportementArme-backto-ComportementEpee" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="395.08,202.25,381.35,186.12,402.15,190.17,395.08,202.25" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[f34838465ddc714cd2b8bd86cc8562f1]
+reverse link ComportementArme to ComportementPoignard--><path codeLine="40" d="M273.48,195.85 C242.43,213 206.77,232.69 182.86,245.89 " fill="none" id="ComportementArme-backto-ComportementPoignard" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="270.21,189.66,291.1,186.12,276.98,201.92,270.21,189.66" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[04eb763ac487871aeec121e241ea7d86]
+reverse link ComportementArme to ComportementArc--><path codeLine="41" d="M337.5,206.61 C337.5,220.71 337.5,235.25 337.5,245.75 " fill="none" id="ComportementArme-backto-ComportementArc" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="330.5,206.12,337.5,186.12,344.5,206.12,330.5,206.12" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[837956199bfb40b0d7e310d2ee483659]
+@startuml
+
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' UML concepts illustrated
+' JMB 2014
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+!include util/config.cfg
+
+abstract class Personnage {
+combattre() {this.arme.utiliserArme();}
+setArme(ComportementArme a) {this.arme = a;}
+}
+class Reine {
+combattre() {...}
+}
+class Roi {
+combattre() {...}
+}
+class ComportementPoignard {
+}
+class ComportementArc {
+}
+class ComportementEpee {
+}
+interface ComportementArme{
+{abstract} utiliserArme()
+}
+class Troll {
+combattre() {...}
+}
+class Chevalier {
+combattre() {...}
+}
+Personnage <|- - Roi
+Personnage <|- - Reine
+Personnage <|- - Chevalier
+Personnage <|- - Troll
+Personnage o- -> "1" ComportementArme
+
+ComportementArme <|.. ComportementEpee
+ComportementArme <|.. ComportementPoignard
+ComportementArme <|.. ComportementArc
+
+
+@enduml
+
+@startuml
+
+
+hide empty members
+hide empty methods
+
+
+skinparam package {
+	BackgroundColor empty
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName TrebuchetMS
+}
+skinparam roundcorner 10
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName TrebuchetMS
+}
+skinparam arrow {
+    MessageAlign center
+}
+
+abstract class Personnage {
+combattre() {this.arme.utiliserArme();}
+setArme(ComportementArme a) {this.arme = a;}
+}
+class Reine {
+combattre() {...}
+}
+class Roi {
+combattre() {...}
+}
+class ComportementPoignard {
+}
+class ComportementArc {
+}
+class ComportementEpee {
+}
+interface ComportementArme{
+{abstract} utiliserArme()
+}
+class Troll {
+combattre() {...}
+}
+class Chevalier {
+combattre() {...}
+}
+Personnage <|- - Roi
+Personnage <|- - Reine
+Personnage <|- - Chevalier
+Personnage <|- - Troll
+Personnage o- -> "1" ComportementArme
+
+ComportementArme <|.. ComportementEpee
+ComportementArme <|.. ComportementPoignard
+ComportementArme <|.. ComportementArc
+
+
+@enduml
+
+PlantUML version 1.2020.18(Wed Sep 30 21:40:44 CEST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>
