@@ -206,7 +206,12 @@ Chocolate factories use boilers supervised by controllers.
 
 The job of the boiler is to take in chocolate and milk, bring them to a boil, and then pass them on to the next phase of making chocolate bars.
 
-Here is the controller class you have developed:
+Here is a quick state machine for the Boilers:
+
+.The Boiler state machine (source link:images/stateMachine.plantuml[here])
+image::stateMachine.svg[]
+
+Here is the controller class you have developed to implement this state machine:
 
 .The `ChocolateBoiler` class
 [source,java]
